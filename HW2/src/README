@@ -1,0 +1,34 @@
+--How to compile
+  In "HW2/src/", enter the command:
+  $ make
+  An executalbe file "hw2" will be in the HW2/bin/
+  
+  if you want to remove it, use the makefile function
+  $ make clean
+  
+--How to Run
+  Please change direct to "HW2/bin/"
+  Use following command:
+  $ ./hw2 ../testcase/public1.txt test.hgr ../output/public1.out
+  
+  Also, we can use the verify.exe
+  Use the following command:
+  $ ../verifier/verify ../testcase/public1.txt ../output/public1.out
+
+  the following command can be copy and paste to run the result.  
+  
+  Run command:
+  $ ./hw2 ../testcase/public1.txt test.hgr ../output/public1.out
+  $ ./hw2 ../testcase/public2.txt test.hgr ../output/public2.out
+  $ ./hw2 ../testcase/public3.txt test.hgr ../output/public3.out
+  $ ./hw2 ../testcase/public4.txt test.hgr ../output/public4.out
+  $ ./hw2 ../testcase/public5.txt test.hgr ../output/public5.out
+  $ ./hw2 ../testcase/public6.txt test.hgr ../output/public6.out
+
+  Verify command:
+  $ ../verifier/verify ../testcase/public1.txt ../output/public1.out
+  $ ../verifier/verify ../testcase/public2.txt ../output/public2.out
+  $ ../verifier/verify ../testcase/public3.txt ../output/public3.out
+  $ ../verifier/verify ../testcase/public4.txt ../output/public4.out
+  $ ../verifier/verify ../testcase/public5.txt ../output/public5.out
+  $ ../verifier/verify ../testcase/public6.txt ../output/public6.out

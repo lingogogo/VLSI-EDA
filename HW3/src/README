@@ -1,0 +1,31 @@
+--How to compile
+  In "HW3/src/", enter the command:
+  $ make
+  An executalbe file "hw3" will be in the HW3/bin/
+  
+  if you want to remove it, use the makefile function
+  $ make clean
+  
+--How to Run
+  Please change direct to "HW3/bin/"
+  
+  Use following command:
+  $ ./hw3 ../testcase/public1.txt test.hgr ../output/public1.floorplan
+  
+  Also, we can use the verify.exe
+  Use the following command:
+  $ ../verifier/verify ../testcase/public1.txt ../output/public1.floorplan
+
+  the following command can be copy and paste to run the result.  
+  
+  Run command:
+  $ ./hw3 ../testcase/public1.txt test.hgr ../output/public1.floorplan
+  $ ./hw3 ../testcase/public2.txt test.hgr ../output/public2.floorplan
+  $ ./hw3 ../testcase/public3.txt test.hgr ../output/public3.floorplan
+  $ ./hw3 ../testcase/public4.txt test.hgr ../output/public4.floorplan
+
+  Verify command:
+  $ ../verifier/verify ../testcase/public1.txt ../output/public1.floorplan
+  $ ../verifier/verify ../testcase/public2.txt ../output/public2.floorplan
+  $ ../verifier/verify ../testcase/public3.txt ../output/public3.floorplan
+  $ ../verifier/verify ../testcase/public4.txt ../output/public4.floorplan
